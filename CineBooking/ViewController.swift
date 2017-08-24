@@ -22,21 +22,35 @@ class ViewController: UIViewController {
     
     }
     
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
     @IBAction func loginBtn(_ sender: AnyObject) {
+        
+        
         if userTextField.text == username &&
             passwordTextField.text == password{
-            print("login successful")
+            
+            let alert1 = UIAlertController(title: "Success!", message: "You login successful", preferredStyle: UIAlertControllerStyle.alert)
+            
+            alert1.addAction(UIAlertAction(title:"OK", style: UIAlertActionStyle.default, handler:{ (action) in alert1.dismiss(animated: true, completion: nil)
+            }))
+            self.present(alert1, animated: true, completion:nil)
         }
+            
         else{
-            print("try again!")
+            
+            let alert2 = UIAlertController(title: "Sorry!", message: "Please retype username and password", preferredStyle: UIAlertControllerStyle.alert)
+            
+            alert2.addAction(UIAlertAction(title:"OK", style: UIAlertActionStyle.default, handler:{ (action) in alert2.dismiss(animated: true, completion: nil)
+            }))
+            self.present(alert2, animated: true, completion:nil)
         }
+        
     }
-
+    
+    
 }
 
