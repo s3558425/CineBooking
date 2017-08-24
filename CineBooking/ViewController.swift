@@ -36,6 +36,7 @@ class ViewController: UIViewController {
             let alert1 = UIAlertController(title: "Success!", message: "You login successful", preferredStyle: UIAlertControllerStyle.alert)
             
             alert1.addAction(UIAlertAction(title:"OK", style: UIAlertActionStyle.default, handler:{ (action) in alert1.dismiss(animated: true, completion: nil)
+                print ("YES")
             }))
             self.present(alert1, animated: true, completion:nil)
         }
@@ -44,7 +45,8 @@ class ViewController: UIViewController {
             
             let alert2 = UIAlertController(title: "Sorry!", message: "Please retype username and password", preferredStyle: UIAlertControllerStyle.alert)
             
-            alert2.addAction(UIAlertAction(title:"OK", style: UIAlertActionStyle.default, handler:{ (action) in alert2.dismiss(animated: true, completion: nil)
+            alert2.addAction(UIAlertAction(title:"Try again", style: UIAlertActionStyle.default, handler:{ (action) in alert2.dismiss(animated: true, completion: nil)
+                print ("false")
             }))
             self.present(alert2, animated: true, completion:nil)
         }
