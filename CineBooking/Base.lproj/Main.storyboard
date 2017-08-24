@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -125,17 +125,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8cz-Iw-FH7">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1213"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1213.6666666666667"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="90W-P5-SC3">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="404.33333333333331"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="404.66666666666669"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="et7-Zh-jBT">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="384"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="384.33333333333337"/>
                                                         <state key="normal" image="Spider-Man_Homecoming_poster"/>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Spider-man:Homecoming" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zy-PG-9EA">
-                                                        <rect key="frame" x="0.0" y="384" width="414" height="20.333333333333314"/>
+                                                        <rect key="frame" x="0.0" y="384.33333333333337" width="414" height="20.333333333333314"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -143,14 +143,14 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2F0-WN-YXa">
-                                                <rect key="frame" x="0.0" y="404.33333333333337" width="414" height="404.33333333333337"/>
+                                                <rect key="frame" x="0.0" y="404.66666666666663" width="414" height="404.66666666666663"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSQ-gl-4YO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="384"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="384.33333333333331"/>
                                                         <state key="normal" image="Baby_Driver_poster"/>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3P-Wu-AoH">
-                                                        <rect key="frame" x="0.0" y="384" width="414" height="20.333333333333314"/>
+                                                        <rect key="frame" x="0.0" y="384.33333333333331" width="414" height="20.333333333333371"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -158,7 +158,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Clr-bm-fM2">
-                                                <rect key="frame" x="0.0" y="808.66666666666663" width="414" height="404.33333333333337"/>
+                                                <rect key="frame" x="0.0" y="809.33333333333337" width="414" height="404.33333333333337"/>
                                             </stackView>
                                         </subviews>
                                     </stackView>
@@ -181,7 +181,7 @@
         <!--View Controller-->
         <scene sceneID="frT-2e-g7D">
             <objects>
-                <viewController id="l4z-co-maH" sceneMemberID="viewController">
+                <viewController id="l4z-co-maH" customClass="ViewController" customModule="CineBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qLd-HB-wQx"/>
                         <viewControllerLayoutGuide type="bottom" id="Lej-87-LcH"/>
@@ -214,6 +214,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginBtn:" destination="l4z-co-maH" eventType="touchUpInside" id="TB7-Sz-dwZ"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BkF-un-dGq">
                                 <rect key="frame" x="169" y="193" width="205" height="30"/>
@@ -278,6 +281,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="BkF-un-dGq" secondAttribute="trailing" constant="20" id="zsB-Zg-UrK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="I10-TQ-OtC" id="sJq-EY-WgC"/>
+                        <outlet property="userTextField" destination="BkF-un-dGq" id="lRF-Ct-xlX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bzA-bk-ay5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -471,8 +478,8 @@
         <image name="icons8-Two Tickets-50" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bWm-3c-31J"/>
+        <segue reference="tgX-qd-BJt"/>
         <segue reference="P4x-zQ-YHk"/>
-        <segue reference="Re9-rk-KkE"/>
+        <segue reference="bWm-3c-31J"/>
     </inferredMetricsTieBreakers>
 </document>
