@@ -24,8 +24,11 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8we-j2-Jwz">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="A94-B4-lB5"/>
+                                </constraints>
                                 <items>
-                                    <navigationItem title="Title" id="QgZ-Ht-6T5">
+                                    <navigationItem title="CineBooking" prompt="" id="QgZ-Ht-6T5">
                                         <barButtonItem key="leftBarButtonItem" title="Login" id="TYW-RE-yOw">
                                             <connections>
                                                 <segue destination="l4z-co-maH" kind="popoverPresentation" popoverAnchorBarButtonItem="TYW-RE-yOw" id="P4x-zQ-YHk">
@@ -45,10 +48,10 @@
                                 </connections>
                             </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="zuV-iY-asi">
-                                <rect key="frame" x="0.0" y="72" width="414" height="664"/>
+                                <rect key="frame" x="0.0" y="73" width="414" height="663"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77c-6e-Ynx">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="162.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="162"/>
                                         <color key="backgroundColor" red="0.0" green="0.63542461395263672" blue="0.90918153524398804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
                                         <state key="normal" title="Now showing" image="icons8-Movie-50" backgroundImage="blue square non-copyrightable"/>
@@ -57,18 +60,18 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Moe-95-zyp">
-                                        <rect key="frame" x="0.0" y="167.33333333333331" width="414" height="162.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="167" width="414" height="162"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
                                         <state key="normal" title="My Tickets" image="icons8-Two Tickets-50" backgroundImage="blue square non-copyrightable"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqA-4p-OMV">
-                                        <rect key="frame" x="0.0" y="334.66666666666663" width="414" height="161.99999999999994"/>
+                                        <rect key="frame" x="0.0" y="334" width="414" height="162"/>
                                         <color key="backgroundColor" red="0.0" green="0.63542461400000005" blue="0.9091815352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
                                         <state key="normal" title="Cart" image="icons8-Shopping Cart-50" backgroundImage="blue square non-copyrightable"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFq-F3-Kqn">
-                                        <rect key="frame" x="0.0" y="501.66666666666657" width="414" height="162.33333333333343"/>
+                                        <rect key="frame" x="0.0" y="501" width="414" height="162"/>
                                         <color key="backgroundColor" red="0.0" green="0.63542461400000005" blue="0.9091815352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
                                         <state key="normal" title="Cinema Locator" image="icons8-Map Pin-50" backgroundImage="blue square non-copyrightable"/>
@@ -78,13 +81,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="zuV-iY-asi" secondAttribute="trailing" id="2GQ-rc-Civ"/>
-                            <constraint firstItem="8we-j2-Jwz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8UG-1f-0Oh"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zuV-iY-asi" secondAttribute="bottom" id="AlS-DJ-K0I"/>
-                            <constraint firstItem="zuV-iY-asi" firstAttribute="top" secondItem="8we-j2-Jwz" secondAttribute="bottom" id="dvd-vB-iqs"/>
-                            <constraint firstAttribute="trailing" secondItem="8we-j2-Jwz" secondAttribute="trailing" id="fbr-mb-CVN"/>
-                            <constraint firstItem="zuV-iY-asi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oo3-yj-GH4"/>
-                            <constraint firstItem="8we-j2-Jwz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="xGB-Eh-Ssi"/>
+                            <constraint firstAttribute="bottom" secondItem="zuV-iY-asi" secondAttribute="bottom" id="2vJ-JU-4iy"/>
+                            <constraint firstItem="zuV-iY-asi" firstAttribute="top" secondItem="8we-j2-Jwz" secondAttribute="bottom" constant="1" id="5Rm-VR-5AT"/>
+                            <constraint firstItem="8we-j2-Jwz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MRi-Qj-Atz"/>
+                            <constraint firstAttribute="trailing" secondItem="zuV-iY-asi" secondAttribute="trailing" id="YmP-1d-lGG"/>
+                            <constraint firstItem="zuV-iY-asi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bGx-Sj-Pie"/>
+                            <constraint firstAttribute="trailing" secondItem="8we-j2-Jwz" secondAttribute="trailing" id="cUa-eD-kFZ"/>
+                            <constraint firstItem="8we-j2-Jwz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="lFs-bi-orZ"/>
+                            <constraint firstItem="8we-j2-Jwz" firstAttribute="leading" secondItem="zuV-iY-asi" secondAttribute="leading" id="lzV-fe-dml"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -467,8 +471,8 @@
         <image name="icons8-Two Tickets-50" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Cri-Lb-eSP"/>
-        <segue reference="F6k-S3-V9e"/>
-        <segue reference="tgX-qd-BJt"/>
+        <segue reference="bWm-3c-31J"/>
+        <segue reference="P4x-zQ-YHk"/>
+        <segue reference="Re9-rk-KkE"/>
     </inferredMetricsTieBreakers>
 </document>
