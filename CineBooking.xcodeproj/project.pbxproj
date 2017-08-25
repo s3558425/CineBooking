@@ -509,6 +509,7 @@
 				85FB8A5F1F46F4E8000ADFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85FB8A601F46F4E8000ADFA5 /* Build configuration list for PBXNativeTarget "CineBookingTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +518,7 @@
 				85FB8A621F46F4E8000ADFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85FB8A631F46F4E8000ADFA5 /* Build configuration list for PBXNativeTarget "CineBookingUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +527,7 @@
 				85FB8A651F46F4E8000ADFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

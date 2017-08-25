@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var userTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var MovieCollectionView: UICollectionView!
+    
     
     let username = "admin"
     let password = "password"
@@ -54,5 +56,6 @@ class ViewController: UIViewController {
     }
     
     
+
 }
 
