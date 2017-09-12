@@ -138,6 +138,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JXb-1m-Sti">
+                                <rect key="frame" x="177" y="147" width="182" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -155,8 +159,8 @@
             <objects>
                 <tabBarController id="ouY-ep-nCD" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="cTf-Qu-Hjq"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" id="Rlv-b5-Voa">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Rlv-b5-Voa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -176,7 +180,7 @@
         <scene sceneID="uTx-gy-7UA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dL9-AL-f4i" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My Tickets" id="H8i-NC-5mY"/>
+                    <tabBarItem key="tabBarItem" title="My Tickets" image="icons8-Two Tickets-50" id="H8i-NC-5mY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FFb-F5-vau">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -195,7 +199,7 @@
         <scene sceneID="g9i-f7-imT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ghY-hk-k3H" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Cart" id="k6l-Qo-oPD"/>
+                    <tabBarItem key="tabBarItem" title="Cart" image="icons8-Shopping Cart-50" id="k6l-Qo-oPD"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="21K-fe-glU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -233,7 +237,7 @@
         <scene sceneID="JEl-Er-tbN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="v6Q-Se-pCx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Cinema Locator" id="sqB-nX-g7C"/>
+                    <tabBarItem key="tabBarItem" title="Cinema Locator" image="icons8-Map Pin-50" id="sqB-nX-g7C"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LLn-YW-Hqr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -250,6 +254,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icons8-Movie-50" width="50" height="50"/>
+        <image name="icons8-Map Pin-50" width="25" height="25"/>
+        <image name="icons8-Movie-50" width="25" height="25"/>
+        <image name="icons8-Shopping Cart-50" width="25" height="25"/>
+        <image name="icons8-Two Tickets-50" width="25" height="25"/>
     </resources>
 </document>
