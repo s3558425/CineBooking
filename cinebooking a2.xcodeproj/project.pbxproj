@@ -14,6 +14,7 @@
 		600B9EFE1F665A9600BF11A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600B9EFC1F665A9600BF11A7 /* LaunchScreen.storyboard */; };
 		600B9F091F665A9600BF11A7 /* cinebooking_a2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600B9F081F665A9600BF11A7 /* cinebooking_a2Tests.swift */; };
 		600B9F141F665A9600BF11A7 /* cinebooking_a2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600B9F131F665A9600BF11A7 /* cinebooking_a2UITests.swift */; };
+		600B9F221F67D01600BF11A7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600B9F211F67D01600BF11A7 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		600B9F0F1F665A9600BF11A7 /* cinebooking a2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cinebooking a2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		600B9F131F665A9600BF11A7 /* cinebooking_a2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cinebooking_a2UITests.swift; sourceTree = "<group>"; };
 		600B9F151F665A9600BF11A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600B9F211F67D01600BF11A7 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				600B9EFA1F665A9600BF11A7 /* Assets.xcassets */,
 				600B9EFC1F665A9600BF11A7 /* LaunchScreen.storyboard */,
 				600B9EFF1F665A9600BF11A7 /* Info.plist */,
+				600B9F211F67D01600BF11A7 /* TableViewController.swift */,
 			);
 			path = "cinebooking a2";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				600B9EF61F665A9600BF11A7 /* ViewController.swift in Sources */,
+				600B9F221F67D01600BF11A7 /* TableViewController.swift in Sources */,
 				600B9EF41F665A9600BF11A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
