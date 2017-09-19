@@ -101,7 +101,6 @@
         <!--View Controller-->
         <scene sceneID="8RT-4s-of4">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sIF-Fl-N5X" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="AQx-ec-fEi" customClass="ViewController" customModule="cinebooking_a2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WTo-cD-nAM"/>
@@ -111,7 +110,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6GD-ic-ceI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HEO-da-9Kt">
                                 <rect key="frame" x="16" y="90" width="153" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -147,10 +146,11 @@
                     </view>
                     <connections>
                         <outlet property="descText" destination="TIa-VA-dBS" id="E34-Kg-kiw"/>
-                        <outlet property="myImageView" destination="6GD-ic-ceI" id="0Sg-Zk-Xrl"/>
+                        <outlet property="posterView" destination="HEO-da-9Kt" id="f0c-M2-C9V"/>
                         <outlet property="titleLabel" destination="GSX-ST-fOL" id="cdo-4p-73o"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sIF-Fl-N5X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2389.5999999999999" y="-871.21439280359823"/>
         </scene>

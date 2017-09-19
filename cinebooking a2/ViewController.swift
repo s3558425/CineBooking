@@ -10,15 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var descText: UITextView!
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var myImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         titleLabel.text = movies[myIndex]
         descText.text = movieDesc[myIndex]
-        myImageView.image = UIImage(named:movies[myIndex] + ".jpg")
+        posterView.image = UIImage(named:movies[myIndex] + ".jpg")
     }
 
     override func didReceiveMemoryWarning() {
